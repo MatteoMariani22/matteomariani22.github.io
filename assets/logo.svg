@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120" role="img" aria-labelledby="logo-title">
+  <title id="logo-title">MM logo</title>
+  <path fill="#fff" transform="translate(8 -10) rotate(-4 60 60)" d="M12 102V18h25l23 31 23-31h25v84H84V53L60 84 36 53v49z"/>
+  <path fill="#06b6d4" transform="translate(-22 10) rotate(5 145 60)" d="M101 102V18h25l23 31 23-31h25v84h-24V53l-24 31-24-31v49z"/>
+</svg>
