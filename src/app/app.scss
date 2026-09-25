@@ -1,0 +1,13 @@
+.content-section {
+  margin: 0 auto;
+  max-width: 76rem;
+  padding: 7rem clamp(1.25rem, 5vw, 5rem);
+  scroll-margin-top: 1rem;
+}
+
+@media (max-width: 760px) {
+  .content-section {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+  }
+}

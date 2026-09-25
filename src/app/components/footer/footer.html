@@ -1,0 +1,14 @@
+<footer class="site-footer">
+    <p>© 2026 Matteo Mariani <span aria-hidden="true">·</span> Mobile &amp; FE Engineer</p>
+</footer>
+
+<a
+    class="back-to-top"
+    [class.is-visible]="showBackToTop()"
+    href="#top"
+    aria-label="Back to top"
+    title="Back to top"
+>
+    <span>TO TOP</span>
+    <i class="progress-track" aria-hidden="true"><b [style.height.%]="scrollProgress()"></b></i>
+</a>
