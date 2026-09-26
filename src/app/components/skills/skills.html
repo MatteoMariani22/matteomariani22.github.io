@@ -1,23 +1,23 @@
 <section class="content-section skills-page-section" id="skills" aria-labelledby="skills-title">
   <div class="section-heading">
-    <p class="section-eyebrow">Skills</p>
+    <p translate="no" class="section-eyebrow">Skills</p>
     <h2 id="skills-title">The tools and practices<br /><span>behind the work.</span></h2>
   </div>
 
   <div class="skills-layout">
     <section class="skills-section" aria-labelledby="technical-skills-title">
       <div class="skills-heading">
-        <p class="section-eyebrow">Technical skills</p>
+        <p translate="no" class="section-eyebrow">Technical skills</p>
         <h3 id="technical-skills-title">Tools for building<br /><span>reliable products.</span></h3>
       </div>
 
       <div class="skill-groups">
         @for (group of technicalSkills; track group.title) {
           <article class="skill-group">
-            <h4>{{ group.title }}</h4>
+            <h4 translate="no">{{ group.title }}</h4>
             <ul>
               @for (skill of group.skills; track skill) {
-                <li>{{ skill }}</li>
+                <li translate="no">{{ skill }}</li>
               }
             </ul>
           </article>
@@ -27,17 +27,17 @@
 
     <section class="skills-section" aria-labelledby="soft-skills-title">
       <div class="skills-heading">
-        <p class="section-eyebrow">Soft skills</p>
+        <p translate="no" class="section-eyebrow">Soft skills</p>
         <h3 id="soft-skills-title">Experience that<br /><span>moves teams forward.</span></h3>
       </div>
 
       <div class="skill-groups">
         @for (group of softSkills; track group.title) {
           <article class="skill-group">
-            <h4>{{ group.title }}</h4>
+            <h4 translate="no">{{ group.title }}</h4>
             <ul>
               @for (skill of group.skills; track skill) {
-                <li>{{ skill }}</li>
+                <li translate="no">{{ skill }}</li>
               }
             </ul>
           </article>
