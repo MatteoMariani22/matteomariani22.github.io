@@ -144,35 +144,16 @@
   position: relative;
 }
 
-.photo-ring {
-  align-items: center;
-  aspect-ratio: 1;
-  animation: _ngcontent-ng-c2791167593_float-avatar 5s ease-in-out 1s infinite;
-  background: linear-gradient(90deg, var(--neon-cyan), #f8fafc);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  max-width: 24rem;
-  overflow: visible;
-  position: relative;
-  width: 80%;
-}
-
-.photo-mask {
-  border-radius: 0 0 50% 50%;
-  height: 115%;
-  overflow: hidden;
-  position: absolute;
-  top: -13.6%;
-  width: 103.5%;
-  z-index: 1;
+.profile-photo-frame {
+  animation: float-avatar 5s ease-in-out 1s infinite;
+  max-width: 32rem;
+  width: 100%;
 }
 
 .profile-photo {
   display: block;
-  height: 115%;
-  object-fit: cover;
-  position: absolute;
+  height: auto;
+  max-width: 100%;
   width: 100%;
 }
 
@@ -223,7 +204,7 @@
 @media (prefers-reduced-motion: reduce) {
   .hero-content,
   .hero-visual,
-  .photo-ring {
+  .profile-photo-frame {
     animation: none;
   }
 }
@@ -260,7 +241,7 @@
     order: -1;
   }
 
-  .photo-ring {
-    max-width: 20rem;
+  .profile-photo-frame {
+    max-width: 23rem;
   }
 }
