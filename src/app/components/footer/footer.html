@@ -11,5 +11,5 @@
     (click)="scrollToTop($event)"
 >
     <span translate="no">TO TOP</span>
-    <i class="progress-track" aria-hidden="true"><b [style.height.%]="scrollProgress()"></b></i>
+    <i class="progress-track" aria-hidden="true"><b [style.transform]="'scaleY(' + scrollProgress() / 100 + ')'"></b></i>
 </a>

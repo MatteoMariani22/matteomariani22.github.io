@@ -64,11 +64,11 @@
 .progress-track b {
   background: var(--neon-cyan);
   display: block;
-  height: 0;
+  height: 100%;
   left: 0;
   position: absolute;
   top: 0;
-  transition: height 80ms linear;
+  transform-origin: top;
   width: 1px;
 }
 
