@@ -13,14 +13,24 @@
     </p>
     <div class="hero-actions">
       <a class="hero-cta" href="#contact">Let's work together <span aria-hidden="true">&#8594;</span></a>
-      <a
-        class="hero-cta hero-cta-secondary"
-        href="/assets/cv/matteo-mariani-cv.pdf"
-        download
-        aria-label="Download Matteo Mariani CV in PDF format"
-      >
-        Download CV <span aria-hidden="true">&#8595;</span>
-      </a>
+      <div class="cv-download">
+        <button
+          class="hero-cta hero-cta-secondary"
+          type="button"
+          aria-label="Download CV"
+          aria-controls="cv-download-options"
+          [attr.aria-expanded]="isCvMenuOpen()"
+          (click)="toggleCvMenu()"
+        >
+          Download CV <span aria-hidden="true">&#8595;</span>
+        </button>
+        @if (isCvMenuOpen()) {
+          <div class="cv-download-options" id="cv-download-options" aria-label="Choose CV language">
+            <a href="/assets/cv/MatteoMariani_CV_it.pdf" download (click)="closeCvMenu()">Italiano</a>
+            <a href="/assets/cv/MatteoMariani_CV_en.pdf" download (click)="closeCvMenu()">English</a>
+          </div>
+        }
+      </div>
     </div>
   </div>
 

@@ -13,7 +13,7 @@
 }
 
 .hero-content {
-  animation: reveal-content 700ms ease both;
+  animation: reveal-content 850ms ease both;
   max-width: 38rem;
   display: flex;
   flex-direction: column;
@@ -123,11 +123,43 @@
   background: transparent;
   border: 1px solid rgba(34, 211, 238, 0.7);
   color: #dffbff;
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .hero-cta-secondary:hover {
   background: rgba(34, 211, 238, 0.12);
   color: #fff;
+}
+
+.cv-download {
+  position: relative;
+}
+
+.cv-download-options {
+  background: #111a2c;
+  border: 1px solid rgba(34, 211, 238, 0.45);
+  border-radius: 0.75rem;
+  display: grid;
+  left: 50%;
+  min-width: 100%;
+  padding: 0.4rem;
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.cv-download-options a {
+  display: block;
+  color: #dffbff;
+  padding: 0.65rem 0.85rem;
+  text-decoration: none;
+}
+
+.cv-download-options a:hover,
+.cv-download-options a:focus-visible {
+  background: rgba(34, 211, 238, 0.12);
 }
 
 .hero-cta span {
@@ -137,7 +169,7 @@
 
 .hero-visual {
   align-items: center;
-  animation: reveal-visual 900ms 100ms ease both;
+  animation: reveal-visual 1.05s 100ms ease both;
   display: flex;
   justify-content: center;
   min-height: 28rem;
@@ -145,7 +177,7 @@
 }
 
 .profile-photo-frame {
-  animation: float-avatar 5s ease-in-out 1s infinite;
+  animation: float-avatar 5.5s ease-in-out 1s infinite;
   max-width: 32rem;
   width: 100%;
 }
