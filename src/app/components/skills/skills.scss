@@ -94,6 +94,84 @@ h2 span,
   padding: 0.4rem 0.65rem;
 }
 
+.skills-carousel {
+  margin-top: clamp(4rem, 8vw, 7rem);
+  overflow: hidden;
+}
+
+.skills-carousel > .section-eyebrow {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.skills-carousel-viewport {
+  mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+  overflow: hidden;
+}
+
+.skills-carousel-track,
+.skills-carousel-group {
+  display: flex;
+  width: max-content;
+}
+
+.skills-carousel-track {
+  animation: skills-carousel-scroll 80s linear infinite;
+}
+
+.skills-carousel-viewport:hover .skills-carousel-track {
+  animation-play-state: paused;
+}
+
+.skills-carousel-group {
+  --skills-carousel-gap: clamp(1.5rem, 3vw, 2.75rem);
+
+  align-items: center;
+  flex: none;
+  gap: var(--skills-carousel-gap);
+  list-style: none;
+  margin: 0;
+  padding: 0 var(--skills-carousel-gap) 0 0;
+}
+
+.skills-carousel-item {
+  align-items: center;
+  background: #e2e8f0;
+  border-radius: 0.9rem;
+  display: flex;
+  flex: none;
+  height: 4.5rem;
+  justify-content: center;
+  width: 4.5rem;
+}
+
+.skills-carousel-item img {
+  display: block;
+  height: 3rem;
+  object-fit: contain;
+  width: 3rem;
+}
+
+@keyframes skills-carousel-scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skills-carousel-viewport {
+    overflow-x: auto;
+  }
+
+  .skills-carousel-track {
+    animation: none;
+  }
+
+  .skills-carousel-group[aria-hidden='true'] {
+    display: none;
+  }
+}
+
 @media (max-width: 760px) {
   .skills-layout {
     grid-template-columns: 1fr;

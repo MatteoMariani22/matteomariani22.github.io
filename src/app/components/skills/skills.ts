@@ -7,6 +7,35 @@ import { Component } from '@angular/core';
   templateUrl: './skills.html',
 })
 export class Skills {
+  readonly skillIcons = [
+    { name: 'Adobe', icon: '/assets/skills/adobe.svg' },
+    { name: 'Android Studio', icon: '/assets/skills/android-studio.svg' },
+    { name: 'Android', icon: '/assets/skills/android.svg' },
+    { name: 'Angular', icon: '/assets/skills/angular.svg' },
+    { name: 'App Store', icon: '/assets/skills/app-store.svg' },
+    { name: 'Apple', icon: '/assets/skills/apple.svg' },
+    { name: 'Atlassian', icon: '/assets/skills/atlassian.svg' },
+    { name: 'Bash', icon: '/assets/skills/bash.svg' },
+    { name: 'Capacitor', icon: '/assets/skills/capacitor.svg' },
+    { name: 'Cordova', icon: '/assets/skills/cordova.svg' },
+    { name: 'CSS', icon: '/assets/skills/css.svg' },
+    { name: 'Dart', icon: '/assets/skills/dart.svg' },
+    { name: 'Figma', icon: '/assets/skills/figma.svg' },
+    { name: 'Firebase', icon: '/assets/skills/firebase.svg' },
+    { name: 'Flutter', icon: '/assets/skills/flutter.svg' },
+    { name: 'Git', icon: '/assets/skills/git.svg' },
+    { name: 'GitHub', icon: '/assets/skills/github.svg' },
+    { name: 'Google Play', icon: '/assets/skills/google-play.svg' },
+    { name: 'Google', icon: '/assets/skills/google.svg' },
+    { name: 'HTML', icon: '/assets/skills/html.svg' },
+    { name: 'Ionic', icon: '/assets/skills/ionic.svg' },
+    { name: 'iOS', icon: '/assets/skills/ios.svg' },
+    { name: 'JavaScript', icon: '/assets/skills/javascript.svg' },
+    { name: 'TypeScript', icon: '/assets/skills/typescript.svg' },
+    { name: 'VS Code', icon: '/assets/skills/vs-code.svg' },
+    { name: 'Xcode', icon: '/assets/skills/x-code.svg' }
+  ];
+
   readonly technicalSkills = [
     {
       title: 'Mobile',

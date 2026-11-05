@@ -1,18 +1,23 @@
 <section class="hero" id="home" aria-labelledby="hero-title">
   <div class="hero-content">
-    <img class="hero-logo" src="/assets/logo.png" alt="MM" />
+    <img class="hero-logo" src="/assets/logo.svg" alt="MM" />
     <div class="hero-wordmark" aria-labelledby="hero-title">
       <h1 id="hero-title" class="hero-title">
         <span class="hero-initials">MM</span>
-        <span class="hero-profession"><span translate="no">MATTEO</span><span translate="no">MARIANI</span></span>
+        <span class="hero-profession"
+          ><span translate="no">MATTEO</span><span translate="no">MARIANI</span></span
+        >
       </h1>
       <p translate="no" class="hero-role">Senior Mobile Engineer</p>
     </div>
     <p class="hero-intro">
-      I build thoughtful mobile experiences with clean code, strong interfaces and a sharp eye for detail.
+      I build thoughtful mobile experiences with clean code, strong interfaces and a sharp eye for
+      detail.
     </p>
     <div class="hero-actions">
-      <a class="hero-cta" href="#contact">Let's work together <span aria-hidden="true">&#8594;</span></a>
+      <a class="hero-cta" href="#contact"
+        >Let's work together <span aria-hidden="true">&#8594;</span></a
+      >
       <div class="cv-download">
         <button
           class="hero-cta hero-cta-secondary"
@@ -26,8 +31,12 @@
         </button>
         @if (isCvMenuOpen()) {
           <div class="cv-download-options" id="cv-download-options" aria-label="Choose CV language">
-            <a href="/assets/cv/MatteoMariani_CV_it.pdf" download (click)="closeCvMenu()">Italiano</a>
-            <a href="/assets/cv/MatteoMariani_CV_en.pdf" download (click)="closeCvMenu()">English</a>
+            <a href="/assets/cv/MatteoMariani_CV_it.pdf" download (click)="closeCvMenu()"
+              >Italiano</a
+            >
+            <a href="/assets/cv/MatteoMariani_CV_en.pdf" download (click)="closeCvMenu()"
+              >English</a
+            >
           </div>
         }
       </div>

@@ -45,4 +45,26 @@
       </div>
     </section>
   </div>
+
+  <section class="skills-carousel" aria-label="Technologies and tools">
+    <p translate="no" class="section-eyebrow">Technologies & tools</p>
+    <div class="skills-carousel-viewport">
+      <div class="skills-carousel-track">
+        <ul class="skills-carousel-group">
+          @for (skill of skillIcons; track skill.name) {
+            <li class="skills-carousel-item">
+              <img [src]="skill.icon" [attr.alt]="skill.name" width="48" height="48" />
+            </li>
+          }
+        </ul>
+        <ul class="skills-carousel-group" aria-hidden="true">
+          @for (skill of skillIcons; track skill.name) {
+            <li class="skills-carousel-item">
+              <img [src]="skill.icon" alt="" width="48" height="48" />
+            </li>
+          }
+        </ul>
+      </div>
+    </div>
+  </section>
 </section>
