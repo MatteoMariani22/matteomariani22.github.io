@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0EAFF"/>
+      <stop offset="1" stop-color="#F8FAFE"/>
+    </linearGradient>
+    <linearGradient id="mountainSky" x1="535" y1="190" x2="780" y2="415" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B9D2F5"/>
+      <stop offset="1" stop-color="#F2DCC7"/>
+    </linearGradient>
+    <linearGradient id="page" x1="800" y1="170" x2="1070" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F3F6FB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="650" rx="32" fill="url(#background)"/>
+  <circle cx="1140" cy="26" r="200" fill="#C9DAF9" fill-opacity=".45"/>
+  <circle cx="55" cy="625" r="165" fill="#FFFFFF" fill-opacity=".6"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <path d="M77 100V53c23-16 46-16 69 0v47c-23-16-46-16-69 0Z" stroke="#2872E5" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M146 53v47" stroke="#2872E5" stroke-width="5"/>
+    <text x="66" y="171" fill="#14284B" font-size="30" font-weight="700">Digital magazine</text>
+    <text x="66" y="210" fill="#5B6E8D" font-size="20">A rich, immersive reading</text>
+    <text x="66" y="239" fill="#5B6E8D" font-size="20">experience made for tablets.</text>
+    <rect x="66" y="271" width="70" height="5" rx="2.5" fill="#2F78E8"/>
+    <rect x="322" y="109" width="822" height="443" rx="31" fill="#14243D"/>
+    <rect x="337" y="124" width="792" height="413" rx="20" fill="#F4F6FA"/>
+    <rect x="358" y="145" width="750" height="41" rx="10" fill="#FFFFFF"/>
+    <path d="M383 159h20M383 168h20" stroke="#2B72E3" stroke-width="3" stroke-linecap="round"/>
+    <text x="420" y="172" fill="#354B6A" font-size="14" font-weight="700">Magazine</text>
+    <text x="1045" y="172" fill="#7788A2" font-size="12" text-anchor="end">01 / 12</text>
+    <rect x="358" y="199" width="358" height="265" rx="8" fill="url(#mountainSky)"/>
+    <circle cx="637" cy="238" r="37" fill="#FFF2CF" fill-opacity=".9"/>
+    <path d="m358 392 102-115 70 77 94-125 92 119v116H358V392Z" fill="#7899BD"/>
+    <path d="m358 420 133-103 61 48 81-82 83 55v151H358V420Z" fill="#547B9F"/>
+    <path d="m358 438 107-73 75 55 74-43 102 73v42H358v-54Z" fill="#355B7E"/>
+    <path d="m460 277 22 28 24-27 21 29 18-21-26-31-22 22-18-20-19 20Z" fill="#EEF4FA"/>
+    <text x="384" y="236" fill="#31587F" font-size="14" font-weight="700">THE FUTURE OF</text>
+    <text x="384" y="271" fill="#17345C" font-size="30" font-weight="700">Finance,</text>
+    <text x="384" y="306" fill="#17345C" font-size="30" font-weight="700">reimagined.</text>
+    <rect x="382" y="426" width="113" height="25" rx="12.5" fill="#FFFFFF" fill-opacity=".9"/>
+    <text x="438" y="443" fill="#355476" font-size="10" text-anchor="middle">READ THE STORY →</text>
+    <rect x="729" y="199" width="358" height="265" rx="8" fill="url(#page)"/>
+    <text x="756" y="236" fill="#2B3F5E" font-size="15" font-weight="700">Small changes,</text>
+    <text x="756" y="258" fill="#2B3F5E" font-size="15" font-weight="700">lasting impact.</text>
+    <rect x="756" y="275" width="173" height="7" rx="3.5" fill="#D8E0EC"/>
+    <rect x="756" y="290" width="263" height="6" rx="3" fill="#E1E7F0"/>
+    <rect x="756" y="304" width="252" height="6" rx="3" fill="#E1E7F0"/>
+    <rect x="756" y="318" width="276" height="6" rx="3" fill="#E1E7F0"/>
+    <rect x="756" y="342" width="301" height="83" rx="7" fill="#E8EFF8"/>
+    <circle cx="810" cy="377" r="19" fill="#D7E5F5"/>
+    <path d="M810 388v-24m0 11-11-8m11 5 10-12m-10 14 13 3" stroke="#4F86C8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M847 394c17-28 35-41 54-45 19-4 36 4 54 20 17 15 37 22 77 17v39H847v-31Z" fill="#B8D0EA"/>
+    <path d="M847 411c24-14 40-12 59-2 15 8 34 8 56-3 23-10 39-12 70-6v26H847v-15Z" fill="#83A8D0"/>
+    <rect x="358" y="479" width="729" height="36" rx="18" fill="#E5EAF2"/>
+    <rect x="370" y="486" width="28" height="22" rx="6" fill="#FFFFFF"/>
+    <rect x="405" y="486" width="28" height="22" rx="6" fill="#FFFFFF"/>
+    <rect x="440" y="486" width="28" height="22" rx="6" fill="#FFFFFF"/>
+    <rect x="475" y="486" width="28" height="22" rx="6" fill="#FFFFFF"/>
+    <rect x="510" y="486" width="28" height="22" rx="6" fill="#FFFFFF"/>
+    <rect x="545" y="486" width="28" height="22" rx="6" fill="#FFFFFF"/>
+    <rect x="580" y="486" width="28" height="22" rx="6" fill="#FFFFFF"/>
+    <circle cx="1070" cy="497" r="12" fill="#FFFFFF"/>
+    <path d="m1067 492 6 5-6 5" stroke="#7487A3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

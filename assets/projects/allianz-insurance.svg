@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCE9FF"/>
+      <stop offset="1" stop-color="#F7F9FE"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="510" y1="120" x2="1070" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF4FF"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="620" y1="215" x2="1086" y2="306" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4388F5"/>
+      <stop offset="1" stop-color="#1554C5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="650" rx="32" fill="url(#background)"/>
+  <circle cx="1130" cy="30" r="220" fill="#BDD4FF" fill-opacity=".4"/>
+  <circle cx="46" cy="630" r="155" fill="#FFFFFF" fill-opacity=".65"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <circle cx="96" cy="106" r="32" fill="#E9F1FF"/>
+    <path d="M96 80 119 89v17c0 17-11 29-23 36-12-7-23-19-23-36V89l23-9Z" stroke="#2470E8" stroke-width="4.5" stroke-linejoin="round"/>
+    <path d="m85 105 8 8 15-17" stroke="#2470E8" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="176" fill="#102653" font-size="29" font-weight="700">Insurance apps</text>
+    <text x="64" y="216" fill="#526987" font-size="20">Clear policy details,</text>
+    <text x="64" y="245" fill="#526987" font-size="20">claims and coverages.</text>
+    <rect x="64" y="276" width="70" height="5" rx="2.5" fill="#2675F4"/>
+    <rect x="385" y="111" width="744" height="445" rx="27" fill="#14243D"/>
+    <rect x="400" y="126" width="714" height="415" rx="17" fill="url(#screen)"/>
+    <rect x="422" y="148" width="155" height="370" rx="10" fill="#F6F8FD"/>
+    <circle cx="448" cy="177" r="12" fill="#2874E8"/>
+    <rect x="469" y="171" width="82" height="11" rx="5.5" fill="#334C6D"/>
+    <rect x="440" y="207" width="116" height="7" rx="3.5" fill="#C9D5E7"/>
+    <rect x="437" y="234" width="126" height="38" rx="9" fill="#E3EEFF"/>
+    <circle cx="455" cy="253" r="6" fill="#3479EA"/>
+    <rect x="471" y="248" width="74" height="8" rx="4" fill="#8195B2"/>
+    <rect x="437" y="283" width="126" height="38" rx="9" fill="#FFFFFF"/>
+    <circle cx="455" cy="302" r="6" fill="#AAB9CE"/>
+    <rect x="471" y="297" width="65" height="8" rx="4" fill="#C1CDDE"/>
+    <rect x="437" y="340" width="126" height="38" rx="9" fill="#FFFFFF"/>
+    <circle cx="455" cy="359" r="6" fill="#AAB9CE"/>
+    <rect x="471" y="354" width="72" height="8" rx="4" fill="#C1CDDE"/>
+    <text x="603" y="173" fill="#293F5F" font-size="17" font-weight="700">Policy overview</text>
+    <text x="603" y="202" fill="#71839E" font-size="12">YOUR COVERAGE</text>
+    <rect x="598" y="215" width="488" height="91" rx="12" fill="url(#blue)"/>
+    <text x="621" y="245" fill="#D9E7FF" font-size="13">TOTAL COVERAGE</text>
+    <text x="621" y="282" fill="#FFFFFF" font-size="28" font-weight="700">€250,000</text>
+    <rect x="944" y="237" width="112" height="28" rx="14" fill="#FFFFFF" fill-opacity=".2"/>
+    <circle cx="961" cy="251" r="5" fill="#62E0B3"/>
+    <text x="975" y="255" fill="#FFFFFF" font-size="12">Active policy</text>
+    <text x="603" y="337" fill="#293F5F" font-size="16" font-weight="700">Your policies</text>
+    <rect x="598" y="352" width="232" height="142" rx="12" fill="#FFFFFF"/>
+    <rect x="842" y="352" width="244" height="142" rx="12" fill="#FFFFFF"/>
+    <rect x="614" y="367" width="200" height="64" rx="8" fill="#DFEAF8"/>
+    <path d="m614 410 42-31 31 16 31-23 39 15 31-20 26 9v35H614Z" fill="#B5CAE7"/>
+    <path d="M614 411h200v20H614z" fill="#D1DEEF"/>
+    <text x="615" y="455" fill="#536985" font-size="13">Home insurance</text>
+    <text x="615" y="477" fill="#8596AF" font-size="11">Policy active · renews Aug 2026</text>
+    <text x="862" y="379" fill="#657995" font-size="12">CLAIMS THIS YEAR</text>
+    <text x="862" y="414" fill="#293F5F" font-size="25" font-weight="700">2 claims</text>
+    <path d="m862 468 27-19 27 8 28-35 28 17 27-31 35 6 32-19" stroke="#3479EA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M862 468h202" stroke="#E3EAF4" stroke-width="2"/>
+    <g transform="translate(282 276)">
+      <rect x="0" y="0" width="143" height="292" rx="25" fill="#14243D"/>
+      <rect x="7" y="8" width="129" height="276" rx="19" fill="#F8FAFE"/>
+      <rect x="47" y="14" width="49" height="6" rx="3" fill="#14243D"/>
+      <circle cx="71" cy="61" r="20" fill="#E4EEFF"/>
+      <path d="M71 45 83 50v9c0 9-5 15-12 20-7-5-12-11-12-20v-9l12-5Z" fill="#2D74E7"/>
+      <text x="24" y="103" fill="#798AA4" font-size="10">YOUR POLICY</text>
+      <text x="24" y="126" fill="#263E61" font-size="15" font-weight="700">Active Policy</text>
+      <rect x="20" y="144" width="103" height="49" rx="9" fill="#E7F0FE"/>
+      <circle cx="36" cy="161" r="6" fill="#27BC8A"/>
+      <rect x="49" y="157" width="60" height="7" rx="3.5" fill="#566F92"/>
+      <rect x="49" y="171" width="46" height="5" rx="2.5" fill="#A8B8CF"/>
+      <rect x="20" y="207" width="103" height="31" rx="8" fill="#2871E6"/>
+      <text x="71" y="227" fill="#FFFFFF" font-size="10" font-weight="700" text-anchor="middle">View details</text>
+      <rect x="20" y="249" width="47" height="24" rx="7" fill="#E7F0FE"/>
+      <rect x="76" y="249" width="47" height="24" rx="7" fill="#E7F0FE"/>
+    </g>
+  </g>
+</svg>

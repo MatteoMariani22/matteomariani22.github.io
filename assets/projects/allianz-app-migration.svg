@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCE9FF"/>
+      <stop offset="1" stop-color="#F7F9FE"/>
+    </linearGradient>
+    <linearGradient id="modern" x1="730" y1="145" x2="1110" y2="495" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EDF3FF"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="730" y1="220" x2="1095" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4187F1"/>
+      <stop offset="1" stop-color="#1553C2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="650" rx="32" fill="url(#background)"/>
+  <circle cx="1140" cy="30" r="220" fill="#BDD4FF" fill-opacity=".4"/>
+  <circle cx="55" cy="625" r="165" fill="#FFFFFF" fill-opacity=".58"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="71" y="76" width="40" height="40" rx="11" fill="#3479EA"/>
+    <rect x="84" y="89" width="40" height="40" rx="11" fill="#82AEF4"/>
+    <rect x="97" y="102" width="40" height="40" rx="11" fill="#D9E8FF" stroke="#3479EA" stroke-width="3"/>
+    <text x="66" y="192" fill="#14284B" font-size="29" font-weight="700">Enterprise app</text>
+    <text x="66" y="226" fill="#14284B" font-size="29" font-weight="700">migration</text>
+    <text x="66" y="270" fill="#5B6E8D" font-size="20">One migration,</text>
+    <text x="66" y="299" fill="#5B6E8D" font-size="20">faster apps for everyone.</text>
+    <rect x="66" y="329" width="70" height="5" rx="2.5" fill="#2F78E8"/>
+    <rect x="330" y="137" width="265" height="374" rx="20" fill="#FFFFFF" stroke="#D3DDEB" stroke-width="2"/>
+    <rect x="330" y="137" width="265" height="55" rx="20" fill="#E8EDF4"/>
+    <path d="M330 173h265" stroke="#D6DEE9" stroke-width="2"/>
+    <circle cx="353" cy="163" r="5" fill="#ED8D83"/>
+    <circle cx="371" cy="163" r="5" fill="#E9BF69"/>
+    <circle cx="389" cy="163" r="5" fill="#86B99D"/>
+    <text x="420" y="168" fill="#687A94" font-size="12" font-weight="700">BEFORE · LEGACY</text>
+    <rect x="348" y="208" width="229" height="282" rx="10" fill="#F2F4F7"/>
+    <rect x="361" y="222" width="63" height="254" rx="6" fill="#DDE3EB"/>
+    <rect x="371" y="238" width="42" height="7" rx="3.5" fill="#8998AD"/>
+    <rect x="371" y="259" width="34" height="6" rx="3" fill="#AEB9C8"/>
+    <rect x="371" y="278" width="38" height="6" rx="3" fill="#AEB9C8"/>
+    <rect x="371" y="297" width="31" height="6" rx="3" fill="#AEB9C8"/>
+    <rect x="371" y="333" width="41" height="6" rx="3" fill="#AEB9C8"/>
+    <rect x="371" y="352" width="34" height="6" rx="3" fill="#AEB9C8"/>
+    <rect x="371" y="371" width="39" height="6" rx="3" fill="#AEB9C8"/>
+    <rect x="435" y="222" width="128" height="26" rx="5" fill="#D9E0E9"/>
+    <rect x="435" y="259" width="128" height="62" rx="5" fill="#FFFFFF" stroke="#DDE3EB"/>
+    <rect x="445" y="270" width="47" height="6" rx="3" fill="#A3B0C0"/>
+    <rect x="445" y="284" width="105" height="5" rx="2.5" fill="#D1D8E2"/>
+    <rect x="445" y="298" width="93" height="5" rx="2.5" fill="#D1D8E2"/>
+    <rect x="435" y="332" width="128" height="62" rx="5" fill="#FFFFFF" stroke="#DDE3EB"/>
+    <rect x="445" y="343" width="66" height="6" rx="3" fill="#A3B0C0"/>
+    <rect x="445" y="357" width="105" height="5" rx="2.5" fill="#D1D8E2"/>
+    <rect x="445" y="371" width="93" height="5" rx="2.5" fill="#D1D8E2"/>
+    <rect x="435" y="405" width="128" height="53" rx="5" fill="#FFFFFF" stroke="#DDE3EB"/>
+    <path d="M447 442v-19m20 19v-26m20 26v-14m20 14v-31m20 31v-22" stroke="#A8B5C6" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="654" cy="322" r="34" fill="#2874E7"/>
+    <path d="M638 322h30m-11-12 12 12-12 12" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="654" y="380" fill="#6480A5" font-size="11" font-weight="700" text-anchor="middle">MIGRATE</text>
+    <rect x="710" y="123" width="423" height="390" rx="24" fill="#14243D"/>
+    <rect x="724" y="137" width="395" height="362" rx="15" fill="url(#modern)"/>
+    <rect x="747" y="158" width="349" height="34" rx="9" fill="#FFFFFF"/>
+    <circle cx="766" cy="175" r="7" fill="#3479EA"/>
+    <rect x="781" y="170" width="105" height="9" rx="4.5" fill="#506886"/>
+    <rect x="1015" y="168" width="62" height="15" rx="7.5" fill="#E2F5EC"/>
+    <circle cx="1027" cy="175" r="4" fill="#22B77F"/>
+    <text x="1036" y="179" fill="#2C8F6C" font-size="9">LIVE</text>
+    <text x="751" y="220" fill="#314968" font-size="13" font-weight="700">A unified app experience</text>
+    <rect x="747" y="233" width="349" height="83" rx="12" fill="url(#blue)"/>
+    <text x="769" y="259" fill="#D9E7FF" font-size="11">PERFORMANCE BOOST</text>
+    <text x="769" y="294" fill="#FFFFFF" font-size="26" font-weight="700">40% faster</text>
+    <path d="m941 293 24-17 21 9 23-26 20 9 28-23 23 5" stroke="#BFE0FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="747" y="331" width="166" height="93" rx="11" fill="#FFFFFF"/>
+    <rect x="928" y="331" width="168" height="93" rx="11" fill="#FFFFFF"/>
+    <text x="765" y="356" fill="#7B8DA5" font-size="10">FRAMEWORK</text>
+    <text x="765" y="385" fill="#2B4263" font-size="18" font-weight="700">Flutter</text>
+    <rect x="765" y="398" width="100" height="6" rx="3" fill="#4B8AED"/>
+    <text x="947" y="356" fill="#7B8DA5" font-size="10">DESIGN SYSTEM</text>
+    <text x="947" y="385" fill="#2B4263" font-size="17" font-weight="700">Consistent UX</text>
+    <circle cx="1073" cy="378" r="11" fill="#DDF5EA"/>
+    <path d="m1068 378 4 4 7-8" stroke="#1CA777" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="747" y="439" width="349" height="42" rx="10" fill="#FFFFFF"/>
+    <circle cx="766" cy="460" r="5" fill="#22B77F"/>
+    <text x="781" y="464" fill="#4E6380" font-size="11">Modernized and ready to scale</text>
+    <text x="1080" y="464" fill="#2D8C6D" font-size="10" text-anchor="end">AFTER · FLUTTER</text>
+  </g>
+</svg>
