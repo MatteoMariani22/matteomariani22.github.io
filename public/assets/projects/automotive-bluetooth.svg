@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DDEAFF"/>
+      <stop offset="1" stop-color="#F7F9FE"/>
+    </linearGradient>
+    <linearGradient id="carBody" x1="610" y1="280" x2="1090" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".46" stop-color="#E8EEF6"/>
+      <stop offset="1" stop-color="#A8B9CF"/>
+    </linearGradient>
+    <linearGradient id="carGlass" x1="730" y1="260" x2="920" y2="335" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#536F91"/>
+      <stop offset=".45" stop-color="#9DB9D9"/>
+      <stop offset="1" stop-color="#6F8EAF"/>
+    </linearGradient>
+    <linearGradient id="wheel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#52647D"/>
+      <stop offset=".5" stop-color="#1C2C43"/>
+      <stop offset="1" stop-color="#71819A"/>
+    </linearGradient>
+    <linearGradient id="phoneScreen" x1="410" y1="124" x2="654" y2="548" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF4FF"/>
+    </linearGradient>
+    <clipPath id="phone-car-preview" clipPathUnits="userSpaceOnUse">
+      <rect x="21" y="117" width="175" height="103" rx="13"/>
+    </clipPath>
+    <g id="car-illustration">
+      <ellipse cx="850" cy="484" rx="285" ry="25" fill="#6F86A5" fill-opacity=".2"/>
+      <path d="M586 417c0-16 6-29 19-39l50-37c20-15 39-34 63-46 34-17 83-29 121-32 43-3 76 11 106 35l64 48c18 14 40 24 69 31 24 6 40 20 45 39l3 13c3 15-7 26-23 26H607c-13 0-21-9-21-22v-16Z" fill="url(#carBody)" stroke="#7D8FA8" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M666 336 705 303c20-17 45-27 75-32l45-7c39-6 71 9 101 33l55 39H666Z" fill="url(#carGlass)" stroke="#F7FAFE" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M808 269c5 21 7 43 7 66m74-57c5 18 8 37 10 57" stroke="#F7FAFE" stroke-opacity=".88" stroke-width="3"/>
+      <path d="M716 302c19-15 39-23 64-27m119 2c18 6 33 16 48 30" stroke="#FFFFFF" stroke-opacity=".42" stroke-width="7" stroke-linecap="round"/>
+      <path d="M653 337 657 409m151-73c-1 24-3 49-6 74m126-74c2 25 5 50 9 74" stroke="#7B8DA5" stroke-opacity=".68" stroke-width="2"/>
+      <path d="M848 358h29m103 0h27" stroke="#697E98" stroke-width="4" stroke-linecap="round"/>
+      <path d="M603 388c-5 4-8 9-9 15l17 1 12-12-20-4Z" fill="#F5B6B4"/>
+      <path d="M1090 380c11 4 18 11 22 21l-23 1-11-13 12-9Z" fill="#FFFFFF" stroke="#CAD5E3" stroke-width="1.5"/>
+      <path d="M606 431h497" stroke="#FFFFFF" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/>
+      <g>
+        <circle cx="716" cy="429" r="46" fill="#26364D"/>
+        <circle cx="716" cy="429" r="35" fill="url(#wheel)" stroke="#17263D" stroke-width="2"/>
+        <circle cx="716" cy="429" r="26" fill="#D6DFEA" stroke="#F7FAFE" stroke-width="2"/>
+        <g transform="translate(716 429)" stroke="#7F8FA5" stroke-width="3.5" stroke-linecap="round">
+          <path d="M0-21v12M20-7 9-3M12 18 5 7M-12 18-5 7M-20-7-9-3"/>
+        </g>
+        <circle cx="716" cy="429" r="5" fill="#F8FAFD" stroke="#8898AD" stroke-width="2"/>
+        <circle cx="1007" cy="429" r="46" fill="#26364D"/>
+        <circle cx="1007" cy="429" r="35" fill="url(#wheel)" stroke="#17263D" stroke-width="2"/>
+        <circle cx="1007" cy="429" r="26" fill="#D6DFEA" stroke="#F7FAFE" stroke-width="2"/>
+        <g transform="translate(1007 429)" stroke="#7F8FA5" stroke-width="3.5" stroke-linecap="round">
+          <path d="M0-21v12M20-7 9-3M12 18 5 7M-12 18-5 7M-20-7-9-3"/>
+        </g>
+        <circle cx="1007" cy="429" r="5" fill="#F8FAFD" stroke="#8898AD" stroke-width="2"/>
+      </g>
+    </g>
+  </defs>
+  <rect width="1200" height="650" rx="32" fill="url(#background)"/>
+  <circle cx="1140" cy="28" r="220" fill="#C6D9FB" fill-opacity=".4"/>
+  <path d="M0 505c155-64 292-51 418 8 159 75 246 49 397-8 149-56 254-42 385 24v121H0V505Z" fill="#E8EFF9"/>
+  <path d="M0 565c146-41 271-16 398 22 151 45 267 26 414-20 155-48 257-22 388 22v61H0v-85Z" fill="#D7E4F4" fill-opacity=".8"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <circle cx="99" cy="103" r="32" fill="#E8F0FE"/>
+    <path d="m74 112 4-18 15-11h29l15 11 6 18h-69Z" stroke="#2874E7" stroke-width="4" stroke-linejoin="round"/>
+    <circle cx="89" cy="113" r="6" fill="#2874E7"/>
+    <circle cx="127" cy="113" r="6" fill="#2874E7"/>
+    <text x="64" y="174" fill="#14284B" font-size="29" font-weight="700">Connected mobility</text>
+    <text x="64" y="214" fill="#5B6E8D" font-size="20">A smoother way to share</text>
+    <text x="64" y="243" fill="#5B6E8D" font-size="20">and manage company cars.</text>
+    <rect x="64" y="275" width="70" height="5" rx="2.5" fill="#2F78E8"/>
+    <use href="#car-illustration"/>
+    <g transform="translate(355 194)">
+      <rect x="0" y="0" width="217" height="357" rx="33" fill="#15253E"/>
+      <rect x="9" y="10" width="199" height="337" rx="26" fill="url(#phoneScreen)"/>
+      <rect x="70" y="18" width="76" height="7" rx="3.5" fill="#172840"/>
+      <text x="26" y="66" fill="#71839D" font-size="11">FLEET DASHBOARD</text>
+      <text x="26" y="96" fill="#233C60" font-size="20" font-weight="700">My vehicle</text>
+      <circle cx="177" cy="88" r="9" fill="#DFF5EB"/>
+      <circle cx="177" cy="88" r="4" fill="#24B981"/>
+      <rect x="21" y="117" width="175" height="103" rx="13" fill="#E6EFFD"/>
+      <g clip-path="url(#phone-car-preview)">
+        <use href="#car-illustration" transform="translate(-149 44) scale(.29)"/>
+      </g>
+      <text x="28" y="242" fill="#4B6383" font-size="12">Available · EV-042</text>
+      <rect x="21" y="255" width="175" height="39" rx="10" fill="#2872E6"/>
+      <text x="108" y="280" fill="#FFFFFF" font-size="12" font-weight="700" text-anchor="middle">Reserve vehicle</text>
+      <rect x="21" y="305" width="80" height="27" rx="8" fill="#E5EEFC"/>
+      <rect x="116" y="305" width="80" height="27" rx="8" fill="#E5EEFC"/>
+      <circle cx="39" cy="318" r="5" fill="#2E77E6"/>
+      <circle cx="134" cy="318" r="5" fill="#25B981"/>
+    </g>
+    <circle cx="586" cy="282" r="34" fill="#E9F1FF"/>
+    <path d="M587 259v46l17-13-34-25 34 25-17 13v-46l17 13-34 25" stroke="#2C75E5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M620 267c9 8 9 21 0 29m11-40c16 14 16 36 0 51" stroke="#7AA5EA" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

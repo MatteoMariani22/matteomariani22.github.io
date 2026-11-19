@@ -39,6 +39,7 @@ h2 span {
   border: 1px solid rgba(148, 163, 184, 0.14);
   border-radius: 0.55rem;
   min-height: 15rem;
+  overflow: hidden;
   padding: 1.5rem;
   position: relative;
   transition:
@@ -53,6 +54,14 @@ h2 span {
   }
 }
 
+.project-image {
+  border-radius: 0.55rem;
+  display: block;
+  height: auto;
+  margin: -1.5rem -1.5rem 1.25rem;
+  width: calc(100% + 3rem);
+}
+
 .project-number {
   color: var(--neon-cyan);
   font-size: 0.75rem;
@@ -64,7 +73,7 @@ h2 span {
   color: #f8fafc;
   font-size: 1.2rem;
   line-height: 1.25;
-  margin: 2rem 0 0.8rem;
+  margin: 0.5rem 0 0.5rem;
 }
 
 .project-card p {

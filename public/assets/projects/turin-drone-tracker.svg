@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DDE9FF"/>
+      <stop offset="1" stop-color="#F7F9FE"/>
+    </linearGradient>
+    <linearGradient id="map" x1="390" y1="180" x2="1050" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#293E61"/>
+      <stop offset="1" stop-color="#101F38"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="650" rx="32" fill="url(#background)"/>
+  <circle cx="1125" cy="38" r="210" fill="#C6D9FC" fill-opacity=".4"/>
+  <circle cx="40" cy="625" r="170" fill="#FFFFFF" fill-opacity=".65"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <circle cx="96" cy="101" r="31" fill="#E7F0FF"/>
+    <path d="M96 101 83 88m13 13 13-13M96 101l-13 13m13-13 13 13" stroke="#2673E5" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="81" cy="86" r="6" fill="#2673E5"/>
+    <circle cx="111" cy="86" r="6" fill="#2673E5"/>
+    <circle cx="81" cy="116" r="6" fill="#2673E5"/>
+    <circle cx="111" cy="116" r="6" fill="#2673E5"/>
+    <rect x="91" y="96" width="10" height="10" rx="3" fill="#2673E5"/>
+    <text x="64" y="165" fill="#13294C" font-size="30" font-weight="700">Drone tracking</text>
+    <text x="64" y="205" fill="#586D8C" font-size="20">Live flight paths and</text>
+    <text x="64" y="234" fill="#586D8C" font-size="20">telemetry for safer operations.</text>
+    <rect x="64" y="266" width="70" height="5" rx="2.5" fill="#2E78EA"/>
+    <rect x="355" y="119" width="774" height="422" rx="23" fill="#14243D"/>
+    <rect x="370" y="134" width="744" height="388" rx="14" fill="url(#map)"/>
+    <path d="M370 224c83-51 152-29 218-64 70-37 108 7 166-3 57-10 117 44 175 11 63-35 123 26 185-3v87c-65 37-118-8-183 20-58 24-109-20-169 11-60 32-119-10-176 23-71 41-135 4-216 41v-123Z" fill="#45623E" fill-opacity=".75"/>
+    <path d="M370 364c70-31 113 8 178-12 65-19 104 21 158-6 50-26 102 15 163-15 80-40 149 18 245-19v123c-84 29-137-11-202 16-65 27-118-4-171 25-64 34-119-5-176 24-68 35-128 5-195 31V364Z" fill="#5A7048" fill-opacity=".7"/>
+    <path d="m370 301 113-20 91 23 122-37 92 17 92-31 124 23m-634 166 82-59 80 18 91-50 73 18 101-39 95 14 112-34" stroke="#779166" stroke-width="3" stroke-opacity=".6"/>
+    <path d="M424 165v341M505 141v381M590 138v383M675 138v383M760 138v383M845 138v383M930 138v383M1015 138v383" stroke="#A8B6A2" stroke-opacity=".13" stroke-width="2"/>
+    <path d="m495 345 118-74 98 32 91-67 102 42 100-77" stroke="#71B7FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 10"/>
+    <path d="m495 345 118-74 98 32 91-67 102 42 100-77 31 177-145 52-113-31-108 43-97-32-107 42-80-32 10-142Z" stroke="#5CB2FF" stroke-width="3" stroke-linejoin="round" fill="#2F83D6" fill-opacity=".14"/>
+    <circle cx="495" cy="345" r="7" fill="#D9F0FF"/>
+    <circle cx="613" cy="271" r="7" fill="#D9F0FF"/>
+    <circle cx="711" cy="303" r="7" fill="#D9F0FF"/>
+    <circle cx="802" cy="236" r="7" fill="#D9F0FF"/>
+    <circle cx="904" cy="278" r="7" fill="#D9F0FF"/>
+    <circle cx="1004" cy="201" r="7" fill="#D9F0FF"/>
+    <circle cx="802" cy="336" r="27" fill="#2B8DF0" fill-opacity=".35"/>
+    <path d="m802 336-13-13m13 13 13-13m-13 13-13 13m13-13 13 13" stroke="#F0F8FF" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="787" cy="321" r="5" fill="#F0F8FF"/>
+    <circle cx="817" cy="321" r="5" fill="#F0F8FF"/>
+    <circle cx="787" cy="351" r="5" fill="#F0F8FF"/>
+    <circle cx="817" cy="351" r="5" fill="#F0F8FF"/>
+    <rect x="797" y="331" width="10" height="10" rx="3" fill="#F0F8FF"/>
+    <rect x="950" y="156" width="143" height="330" rx="14" fill="#0B1830" fill-opacity=".94"/>
+    <circle cx="973" cy="183" r="5" fill="#2BC995"/>
+    <text x="988" y="187" fill="#C7D7EF" font-size="11">LIVE FLIGHT</text>
+    <text x="969" y="223" fill="#8EA4C4" font-size="11">DRONE STATUS</text>
+    <text x="969" y="248" fill="#F4F7FC" font-size="17" font-weight="700">In flight</text>
+    <path d="M969 265h104" stroke="#2A3D5A" stroke-width="2"/>
+    <text x="969" y="292" fill="#8EA4C4" font-size="11">ALTITUDE</text>
+    <text x="969" y="314" fill="#F4F7FC" font-size="16">120 m</text>
+    <text x="969" y="347" fill="#8EA4C4" font-size="11">SPEED</text>
+    <text x="969" y="369" fill="#F4F7FC" font-size="16">14.8 m/s</text>
+    <text x="969" y="402" fill="#8EA4C4" font-size="11">BATTERY</text>
+    <text x="969" y="424" fill="#F4F7FC" font-size="16">78%</text>
+    <rect x="969" y="440" width="105" height="6" rx="3" fill="#243A58"/>
+    <rect x="969" y="440" width="82" height="6" rx="3" fill="#35C792"/>
+    <path d="M370 537h744l-49 27H420l-50-27Z" fill="#A8B7CC"/>
+    <path d="M516 564h454" stroke="#7D8FA8" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

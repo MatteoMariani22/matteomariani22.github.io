@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCE8FC"/>
+      <stop offset="1" stop-color="#F6F8FC"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="524" y1="124" x2="1100" y2="523" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EDF2FA"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="80" y1="310" x2="330" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8EEF6"/>
+      <stop offset=".5" stop-color="#9CAEC4"/>
+      <stop offset="1" stop-color="#DDE5EF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="650" rx="32" fill="url(#background)"/>
+  <circle cx="1134" cy="30" r="220" fill="#C5D8FB" fill-opacity=".42"/>
+  <path d="M0 519c180-51 309-33 459 17 153 51 272 37 410-14 129-48 225-43 331-6v134H0V519Z" fill="#E5EBF3"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <circle cx="99" cy="103" r="32" fill="#E9F1FF"/>
+    <path d="M99 77 122 86v17c0 17-11 28-23 35-12-7-23-18-23-35V86l23-9Z" stroke="#2671E2" stroke-width="4.5" stroke-linejoin="round"/>
+    <path d="m88 102 8 8 15-17" stroke="#2671E2" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="174" fill="#14284B" font-size="29" font-weight="700">Precision monitor</text>
+    <text x="64" y="214" fill="#5B6E8D" font-size="20">Accurate readings,</text>
+    <text x="64" y="243" fill="#5B6E8D" font-size="20">clear results on the line.</text>
+    <rect x="64" y="275" width="70" height="5" rx="2.5" fill="#2F78E8"/>
+    <rect x="419" y="104" width="744" height="442" rx="25" fill="#14243D"/>
+    <rect x="434" y="119" width="714" height="412" rx="16" fill="url(#screen)"/>
+    <rect x="459" y="145" width="442" height="355" rx="12" fill="#F8FAFD"/>
+    <text x="486" y="180" fill="#334B6C" font-size="16" font-weight="700">Live measurement</text>
+    <circle cx="862" cy="174" r="6" fill="#23B981"/>
+    <text x="847" y="179" fill="#6A7E9A" font-size="11" text-anchor="end">CONNECTED</text>
+    <rect x="482" y="200" width="396" height="110" rx="12" fill="#FFFFFF"/>
+    <text x="504" y="230" fill="#7788A2" font-size="12">COMPONENT WIDTH</text>
+    <text x="504" y="278" fill="#183252" font-size="37" font-weight="700">12.347</text>
+    <text x="657" y="278" fill="#506887" font-size="18">mm</text>
+    <circle cx="824" cy="256" r="19" fill="#DDF5EA"/>
+    <path d="m815 256 6 6 12-14" stroke="#21A779" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="482" y="326" width="396" height="150" rx="12" fill="#FFFFFF"/>
+    <text x="504" y="354" fill="#6D809B" font-size="12">MEASUREMENT TREND</text>
+    <path d="M504 440h353M504 410h353M504 380h353" stroke="#E6ECF4" stroke-width="2"/>
+    <path d="M504 455v-85M574 455v-85M644 455v-85M714 455v-85M784 455v-85M854 455v-85" stroke="#EDF1F7" stroke-width="1.5"/>
+    <path d="m505 430 35-14 32 7 33-26 35 14 33-17 36 4 30-29 39 15 35-9 41-22" stroke="#397FE8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M505 430 540 416l32 7 33-26 35 14 33-17 36 4 30-29 39 15 35-9 41-22v97H505v-25Z" fill="#77A9F1" fill-opacity=".14"/>
+    <text x="504" y="466" fill="#8393AA" font-size="10">09:00</text>
+    <text x="819" y="466" fill="#8393AA" font-size="10">NOW</text>
+    <rect x="922" y="145" width="202" height="205" rx="12" fill="#172A49"/>
+    <text x="944" y="176" fill="#B8C8DF" font-size="12">QUALITY STATUS</text>
+    <circle cx="1023" cy="232" r="35" fill="#213D65"/>
+    <circle cx="1023" cy="232" r="24" fill="#24B980"/>
+    <path d="m1012 232 8 8 15-18" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="1023" y="289" fill="#FFFFFF" font-size="20" font-weight="700" text-anchor="middle">Within tolerance</text>
+    <text x="1023" y="318" fill="#9DB1CF" font-size="12" text-anchor="middle">±0.010 mm</text>
+    <rect x="922" y="366" width="202" height="134" rx="12" fill="#172A49"/>
+    <path d="M957 411v45m25-45v45m25-45v45m25-45v45m25-45v45" stroke="#B4C4DA" stroke-width="4" stroke-linecap="round"/>
+    <path d="M945 406h124M945 462h124M966 397v16m25-16v16m25-16v16m25-16v16m25-16v16" stroke="#7890B2" stroke-width="3" stroke-linecap="round"/>
+    <text x="1023" y="484" fill="#B7C7DF" font-size="11" text-anchor="middle">CALIBRATED SENSOR</text>
+    <g transform="translate(0 45)">
+      <path d="M132 475h220v42H132z" fill="url(#steel)" stroke="#8294AA" stroke-width="3"/>
+      <path d="M171 474V354h33v121m76 0V354h33v121" fill="url(#steel)" stroke="#8294AA" stroke-width="4"/>
+      <path d="M164 354h156M181 343h122v18H181z" fill="#CFD9E6" stroke="#7F91A9" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M218 343v-45h51v45m-26-45v-39" stroke="#73869F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M235 260h16m-16-11h16m-16-11h16m-16-11h16m-16-11h16" stroke="#73869F" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="243" cy="517" rx="124" ry="15" fill="#8699B1" fill-opacity=".22"/>
+    </g>
+  </g>
+</svg>
